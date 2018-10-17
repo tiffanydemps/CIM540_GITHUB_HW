@@ -37,7 +37,6 @@ function decreaseCount() {
   count -= 7;
 }
 
-
 function draw() {
   background(255,255,255);
   image(gou, 0, 0, 700, 900);
@@ -60,10 +59,9 @@ function draw() {
     } else {
       textSize(50)
       text("THE U INVENTED SWAGGER!", 725, 40);
+
+      }
     }
-  }
 
-
-  text(count, 800, 120);
-
-  }
+text(count, 800, 120);
+}
